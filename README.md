@@ -15,19 +15,21 @@ Este proyecto es una aplicación de búsqueda semántica que utiliza el modelo d
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/pablomarin/semantic_search.git
+git clone git@github.com:ikarius6/busqueda-semantica.git
+cd busqueda-semantica
 ```
 
 2. Crea un entorno virtual:
 
 ```bash
-python -m venv myenv
+python -m venv venv
 ```
 
 3. Activa el entorno virtual:
 
 ```bash
-myenv\Scripts\activate
+Linux: source venv/bin/activate
+Windows: venv\Scripts\activate
 ```
 
 4. Instala las dependencias:
@@ -36,7 +38,7 @@ myenv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-5. Descarga el modelo de spacy:
+5. Descarga el modelo de spacy (en español y mediano):
 
 ```bash
 python -m spacy download es_core_news_md
