@@ -19,4 +19,4 @@ categories = [
 #  distiluse-base-multilingual-cased-v2
 #  hiiamsid/sentence_similarity_spanish_es
 #  sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
-embed_model = SentenceTransformer('all-MiniLM-L6-v2') # all-MiniLM-L6-v2 por velocidad
+embed_model = SentenceTransformer('sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2') # all-MiniLM-L6-v2 por velocidad

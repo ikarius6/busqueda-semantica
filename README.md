@@ -56,6 +56,14 @@ python sync.py
 python main.py
 ```
 
+8. (opcional) Ejecuta el servidor de Flask:
+
+```bash
+python app.py
+```
+
+Checa la URL [http://localhost:5001/suggest?text=Hacemos%20platillos%20deliciosos](http://localhost:5001/suggest?text=Hacemos%20platillos%20deliciosos) para ver las categorías sugeridas.
+
 ## Ejemplo de uso
 
 ```python
